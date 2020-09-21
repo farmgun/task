@@ -1,0 +1,21 @@
+y1 = input("y1=")
+x1 = input("x1=")
+y2 = input("y2=")
+x2 = input("x2=")
+y1 = float(y1)
+y2 = float(y2)
+x1 = float(x1)
+x2 = float(x2)
+y3 = input("y3=")
+x3 = input("x3=")
+y4 = input("y4=")
+x4 = input("x4=")
+y3 = float(y4)
+y4 = float(y4)
+x3 = float(x3)
+x4 = float(x4)
+
+NumbersX = [x1, x2, x3, x4]
+print(min(NumbersX), max(NumbersX))
+NumbersY = [y1, y2, y3, y4]
+print(min(NumbersY), max(NumbersY))
